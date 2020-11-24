@@ -32,7 +32,7 @@ def get_token():
 
                 with open("refresh_token.txt", "w") as f:
                     f.write(refresh_token_)
-                    return jsonify("refresh token saved")
+                return jsonify("refresh token saved")
 
             else:
                 print("get auth code failed")
