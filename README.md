@@ -40,6 +40,6 @@ redirectURL=https://example.ngrok.io
 Add your Redirect URL from ngrok to your app  
 Copy and paste your ngrok link into the Redirect URL for OAuth field, then click Continue.
 
-#install app
+# install app
 Run install option available under local test tab on zoom website
 
