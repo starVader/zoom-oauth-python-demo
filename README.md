@@ -6,7 +6,7 @@ pip install -r requirements.txt
 
 setup .env file, add zoom secrets and redirect URL 
 
-#Run
+# Run
 python main.py 
 this will start a server listening on port 4000
 
