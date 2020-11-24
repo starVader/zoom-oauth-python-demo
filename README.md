@@ -1,10 +1,11 @@
 # Setup locally
-git clone https://github.com/starVader/zoom-oauth-python-demo.git
-virtualenv -p python3 venv
+git clone https://github.com/starVader/zoom-oauth-python-demo.git  
+virtualenv -p python3 venv  
 pip install -r requirements.txt
 
 setup .env file, add zoom secrets and redirect URL 
 
+#Run
 python main.py 
 this will start a server listening on port 4000
 
