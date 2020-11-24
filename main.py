@@ -29,9 +29,7 @@ def get_token():
             if response.status_code == 200:
                 response_json = response.json()
                 refresh_token_ = response_json['refresh_token']
-
-                with open("refresh_token.txt", "w") as f:
-                    f.write(refresh_token_)
+                print(refresh_token_)
                 return jsonify("refresh token saved")
 
             else:
