@@ -1,6 +1,7 @@
 # Setup locally
 git clone https://github.com/starVader/zoom-oauth-python-demo.git  
 virtualenv -p python3 venv  
+source venv/bin/activate  
 pip install -r requirements.txt
 
 setup .env file, add zoom secrets and redirect URL 
